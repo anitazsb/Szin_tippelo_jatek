@@ -64,7 +64,7 @@ function reset() {
     pickedColor = chooseColor();
     colorDisplay.textContent = pickedColor;
     h1.style.backgroundColor = "#2C8E99";
-    resetButton.textContent = "New Colors";
+    resetButton.textContent = "Új színek";
     messageDisplay.textContent = "";
     for (var i = 0; i < squares.length; i++) {
         if (colors[i]) {

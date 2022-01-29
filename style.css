@@ -32,6 +32,15 @@ h1 {
 	margin: 0;
 	padding: 10px 0;
 }
+h2 {
+	color: white;
+	background-color: #2C8E99;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px 0;
+}
 
 #color-display {
 	display: block;
