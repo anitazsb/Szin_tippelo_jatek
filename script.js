@@ -29,13 +29,13 @@ function setupSquares() {
         squares[i].addEventListener("click", function () {
             var clickedColor = this.style.backgroundColor;
             if (clickedColor === pickedColor) {
-                messageDisplay.textContent = "Correct";
-                resetButton.textContent = "Play Again";
+                messageDisplay.textContent = "Eltaláltad!";
+                resetButton.textContent = "Játsz újra";
                 changeColors(pickedColor);
             }
             else {
                 this.style.backgroundColor = "#232323";
-                messageDisplay.textContent = "try again";
+                messageDisplay.textContent = "Próbáld újra";
             }
         });
     }
@@ -48,7 +48,7 @@ function setupMode() {
                 modeButtons[i].classList.remove("selected");
             }
             this.classList.add("selected");
-            if (this.textContent === "Easy") {
+            if (this.textContent === "Könnyű") {
                 numSquares = 3;
             }
             else {
