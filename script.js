@@ -6,6 +6,7 @@ var squares = document.querySelectorAll(".square");
 var colorDisplay = document.querySelector("#color-display");
 var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
+var h2 = document.querySelector("h2");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 var easyButton = document.querySelector(".mode");
@@ -34,7 +35,7 @@ function setupSquares() {
                 changeColors(pickedColor);
             }
             else {
-                this.style.backgroundColor = "#232323";
+                this.style.backgroundColor = "#575454";
                 messageDisplay.textContent = "Próbáld újra";
             }
         });
@@ -81,6 +82,7 @@ function changeColors(color) {
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = color;
         h1.style.backgroundColor = color;
+        h2.style.backgroundColor = color;
     }
 }
 
