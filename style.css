@@ -54,7 +54,30 @@ h2 {
 	color: black;
 }
 
+#stripe2 {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
 #message {
+	text-transform: uppercase;
+	color: #2C8E99;
+	font-size: 1.5em;
+	display: inline-block;
+	width: 20%;
+}
+
+#tippek {
+	text-transform: uppercase;
+	color: #2C8E99;
+	font-size: 1.5em;
+	display: inline-block;
+	width: 20%;
+}
+
+#pontok {
 	text-transform: uppercase;
 	color: #2C8E99;
 	font-size: 1.5em;
